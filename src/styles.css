@@ -1,0 +1,303 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#nav-bar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+#nav-bar .navbar {
+  background-image: -webkit-gradient(linear, left top, right top, from(#00cbf9), to(#090979));
+  background-image: linear-gradient(to right, #00cbf9, #090979);
+}
+
+#nav-bar .navbar-nav li {
+  padding: 0 30px;
+}
+
+#nav-bar .navbar-nav li a {
+  float: right;
+  text-align: left;
+  color: #fff !important;
+  font-weight: 600;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+#nav-bar .navbar-nav li a:hover {
+  background-color: #FFCC00;
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+#nav-bar .fa-bars {
+  color: #fff !important;
+  font-size: 30px !important;
+}
+
+#nav-bar .navbar-toggler {
+  outline: none !important;
+}
+
+/*------------------------Banner Section--------------------------*/
+#banner {
+  background-image: -webkit-gradient(linear, right top, left top, from(#1A2980), to(#26D0CE));
+  background-image: linear-gradient(to left, #1A2980, #26D0CE);
+  color: #fff;
+  padding-top: 5%;
+}
+
+#banner .promo-title {
+  margin-top: 100px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#banner a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#banner #bannerimg {
+  width: 40px;
+  margin: 20px;
+}
+
+#banner .bottomimg {
+  width: 100%;
+}
+
+/*------------------------Service Section--------------------------------*/
+#service {
+  padding: 80px 0;
+}
+
+#service .title::before {
+  content: "";
+  background: #7b1798;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  -webkit-transform: translateY(63px);
+          transform: translateY(63px);
+}
+
+#service .title::after {
+  content: "";
+  background: #7b1798;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 40px;
+  -webkit-transform: trnslateY(8px);
+          transform: trnslateY(8px);
+}
+
+#service .service-img {
+  width: 100px;
+}
+
+#service .card {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+#service .card:hover {
+  -webkit-transform: rotateX(360deg);
+          transform: rotateX(360deg);
+}
+
+/*-------------------About Us Section------------------------*/
+#about-us {
+  background: #f8f9fa;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#about-us .title::before {
+  content: "";
+  background: #7b1798;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  -webkit-transform: translateY(63px);
+          transform: translateY(63px);
+}
+
+#about-us .title::after {
+  content: "";
+  background: #7b1798;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 40px;
+  -webkit-transform: trnslateY(8px);
+          transform: trnslateY(8px);
+}
+
+#about-us .about-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#about-us ul li {
+  margin: 10px 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#about-us ul {
+  margin-left: 20px;
+  list-style: none;
+}
+
+/*---------------------------Testimonial Section------------------------------*/
+#testimonial {
+  margin: 30px 0;
+  background: linear-gradient(-100deg, white 50%, pink 20%);
+  height: 60vh;
+}
+
+#testimonial #cardimage {
+  width: 100px !important;
+  border-radius: 50% !important;
+  border: 2px solid red;
+  margin-left: 90px;
+}
+
+#testimonial .card {
+  background: #262626;
+}
+
+#testimonial .card-title {
+  color: #fff;
+  text-align: center;
+}
+
+#testimonial .card-text {
+  color: #fff;
+}
+
+#testimonial .btn-outline-primary {
+  margin-left: 60px;
+}
+
+#testimonial .carousel-indicators {
+  left: 0;
+  top: auto;
+  bottom: -60px;
+}
+
+#testimonial .carousel-indicators li {
+  background: #000;
+  border-radius: 50%;
+  width: 25px;
+  height: 15px;
+}
+
+#testimonial .carousel-indicators .active {
+  background: #fff;
+}
+
+/*-----------------------Contact Form Section--------------------------*/
+#contactform {
+  background: #f8f9fa;
+  margin-top: 20px;
+}
+
+#contactform .title::before {
+  content: "";
+  background: #7b1798;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  -webkit-transform: translateY(63px);
+          transform: translateY(63px);
+}
+
+#contactform .title::after {
+  content: "";
+  background: #7b1798;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 40px;
+  -webkit-transform: trnslateY(8px);
+          transform: trnslateY(8px);
+}
+
+/*------------------Social media section----------------------*/
+#social-media {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+#social-media p {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#social-media .social-icon img {
+  width: 60px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#social-media a:hover img {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+/*-------------------------Footer Section---------------------------*/
+#footer {
+  background-image: -webkit-gradient(linear, right top, left top, from(#1A2980), to(#26D0CE)) !important;
+  background-image: linear-gradient(to left, #1A2980, #26D0CE) !important;
+}
+
+#footer .footer-png {
+  width: 100%;
+}
+
+#footer .footer-box {
+  padding: 20px;
+}
+
+#footer hr {
+  background-color: #fff;
+}
+
+#footer .copy-right {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */

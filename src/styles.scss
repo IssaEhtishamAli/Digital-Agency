@@ -1,0 +1,267 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    .navbar{
+        background-image: linear-gradient(to right,#00cbf9, #090979);
+    }
+    .navbar-nav li{
+        padding: 0 30px;
+
+    }
+    .navbar-nav li a{
+        float: right;
+        text-align: left;
+        color: #fff !important;
+        font-weight: 600;
+        transition: 0.8s;
+    }
+    .navbar-nav li a:hover{
+        background-color: #FFCC00;
+        transform: rotateY(360deg);
+        transform-origin: left;
+    }
+    .fa-bars{
+        color: #fff !important;
+        font-size: 30px !important;
+    }
+    .navbar-toggler{
+        outline: none !important;
+      }
+      
+}
+
+/*------------------------Banner Section--------------------------*/
+
+#banner{
+    background-image: linear-gradient(to left,#1A2980,#26D0CE) ;
+    color: #fff;
+    padding-top: 5%;
+
+    .promo-title{
+        margin-top: 100px;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+    #bannerimg{
+        width: 40px;
+        margin: 20px;
+        
+    }
+    .bottomimg{
+        width: 100%;
+    }
+    
+}
+
+
+/*------------------------Service Section--------------------------------*/
+
+#service{
+    padding:80px 0;
+    .title::before{
+        content: "";
+        background: #7b1798;
+        height:5px;
+        width:200px;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        transform: translateY(63px);
+
+    }
+    .title::after{
+        content: "";
+        background: #7b1798;
+        height:10px;
+        width:50px;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        margin-top: 8px;
+        margin-bottom: 40px;
+        transform:trnslateY(8px);
+    }
+    
+    .service-img{
+        width:100px;
+    }
+    .card{
+        transition: 0.8s;
+
+    }
+    .card:hover{
+      transform: rotateX(360deg);
+
+    }
+    
+}
+
+/*-------------------About Us Section------------------------*/
+#about-us{
+    background:#f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    .title::before{
+        content: "";
+        background: #7b1798;
+        height:5px;
+        width:200px;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        transform: translateY(63px);
+
+    }
+    .title::after{
+        content: "";
+        background: #7b1798;
+        height:10px;
+        width:50px;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        margin-top: 8px;
+        margin-bottom: 40px;
+        transform:trnslateY(8px);
+    }
+    .about-title{
+        font-size: 30px ;
+        font-weight: 600 ;
+    }
+    ul li{
+        margin:10px 0;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      ul{
+        margin-left: 20px;
+        list-style: none;
+      }
+}
+
+/*---------------------------Testimonial Section------------------------------*/
+#testimonial{
+    
+    margin:30px 0;
+    background:linear-gradient(-100deg, white 50%, pink 20%);
+    height:60vh;
+     #cardimage{
+         width: 100px !important;
+         border-radius: 50% !important;
+         border: 2px solid red;
+         margin-left: 90px;
+     }
+     .card{
+         background: #262626;
+     }
+     .card-title{
+         color: #fff;
+         text-align: center;
+     }
+     .card-text{
+        color: #fff;
+     }
+     .btn-outline-primary{
+         margin-left: 60px;
+     }
+     .carousel-indicators{
+         left: 0;
+         top: auto;
+         bottom: -60px;
+     }
+     .carousel-indicators li{
+         background: #000;
+         border-radius: 50%;
+         width: 25px;
+         height: 15px;
+     }
+     .carousel-indicators .active{
+         background: #fff;
+     }
+    }
+
+
+    /*-----------------------Contact Form Section--------------------------*/
+    #contactform{
+        background:#f8f9fa;
+        margin-top:20px;
+
+
+        .title::before{
+            content: "";
+            background: #7b1798;
+            height:5px;
+            width:200px;
+            margin-left:auto;
+            margin-right:auto;
+            display:block;
+            transform: translateY(63px);
+    
+        }
+        .title::after{
+            content: "";
+            background: #7b1798;
+            height:10px;
+            width:50px;
+            margin-left:auto;
+            margin-right:auto;
+            display:block;
+            margin-top: 8px;
+            margin-bottom: 40px;
+            transform:trnslateY(8px);
+        }
+    
+    }
+
+    /*------------------Social media section----------------------*/
+#social-media{
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    p{
+      font-size: 36px;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+    .social-icon img{
+      width: 60px;
+      transition: 0.5s;
+    }
+    a:hover img{
+      transform: translateY(-10px);
+    }
+  }
+  
+    /*-------------------------Footer Section---------------------------*/
+
+    #footer{
+            
+            background-image: linear-gradient(to left,#1A2980,#26D0CE) !important;
+            .footer-png{
+                width: 100%;
+            }
+            .footer-box{
+                padding: 20px;
+            }
+            hr{
+                background-color: #fff;
+              }
+              .copy-right{
+                margin-bottom: 0;
+                padding-bottom: 20px;
+                text-align: center;
+              }
+            
+    }
